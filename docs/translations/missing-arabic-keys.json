@@ -1,0 +1,212 @@
+[
+  {
+    "key": "app.name",
+    "enValue": "Log & Ledger",
+    "arValue": "Log & Ledger",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "banking.accounts.accountNumberPlaceholder",
+    "enValue": "1234567890",
+    "arValue": "1234567890",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "banking.accounts.ibanPlaceholder",
+    "enValue": "US12 3456 7890 1234 5678 90",
+    "arValue": "US12 3456 7890 1234 5678 90",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "banking.accounts.swiftPlaceholder",
+    "enValue": "FNBAUS33",
+    "arValue": "FNBAUS33",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "banking.accounts.openingBalancePlaceholder",
+    "enValue": "0.00",
+    "arValue": "0.00",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "banking.accounts.currentBalancePlaceholder",
+    "enValue": "0.00",
+    "arValue": "0.00",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "forms.taxNumberPlaceholder",
+    "enValue": "taxNumberPlaceholder",
+    "arValue": "123456789",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "forms.registrationNumberPlaceholder",
+    "enValue": "registrationNumberPlaceholder",
+    "arValue": "REG-2024-001",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "formats.number.comma_dot",
+    "enValue": "comma_dot",
+    "arValue": "1,234.56",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "formats.number.dot_comma",
+    "enValue": "dot_comma",
+    "arValue": "1.234,56",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "formats.number.space_comma",
+    "enValue": "space_comma",
+    "arValue": "1 234,56",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "privacy.firebase",
+    "enValue": "Firebase",
+    "arValue": "Firebase",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "toast.descriptions.New contact has been added successfully.",
+    "enValue": "New contact has been added successfully.",
+    "arValue": null,
+    "reason": "ناقص"
+  },
+  {
+    "key": "toast.descriptions.Contact information has been updated successfully.",
+    "enValue": "Contact information has been updated successfully.",
+    "arValue": null,
+    "reason": "ناقص"
+  },
+  {
+    "key": "toast.descriptions.Contact has been removed successfully.",
+    "enValue": "Contact has been removed successfully.",
+    "arValue": null,
+    "reason": "ناقص"
+  },
+  {
+    "key": "placeholders.contactCodeExample",
+    "enValue": "CUST001",
+    "arValue": "CUST001",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "placeholders.websiteExample",
+    "enValue": "https://example.com",
+    "arValue": "https://example.com",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "placeholders.taxNumberExample",
+    "enValue": "123456789",
+    "arValue": "123456789",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "placeholders.registrationNumberExample",
+    "enValue": "REG-2024-001",
+    "arValue": "REG-2024-001",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "placeholders.creditLimitExample",
+    "enValue": "10000.00",
+    "arValue": "10000.00",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "buttons.Creating...",
+    "enValue": "Creating...",
+    "arValue": null,
+    "reason": "ناقص"
+  },
+  {
+    "key": "buttons.Adding...",
+    "enValue": "Adding...",
+    "arValue": null,
+    "reason": "ناقص"
+  },
+  {
+    "key": "formPlaceholders.itemCode",
+    "enValue": "itemCode",
+    "arValue": "ITEM001",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "formPlaceholders.barcode",
+    "enValue": "barcode",
+    "arValue": "1234567890123",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "formPlaceholders.salePrice",
+    "enValue": "salePrice",
+    "arValue": "0.00",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "formPlaceholders.purchasePrice",
+    "enValue": "purchasePrice",
+    "arValue": "0.00",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "formPlaceholders.stockQuantity",
+    "enValue": "stockQuantity",
+    "arValue": "0",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "formPlaceholders.minimumStock",
+    "enValue": "minimumStock",
+    "arValue": "10",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "formPlaceholders.reorderLevel",
+    "enValue": "reorderLevel",
+    "arValue": "20",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "dateFormats.dmySlash",
+    "enValue": "dmySlash",
+    "arValue": "DD/MM/YYYY",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "dateFormats.mdySlash",
+    "enValue": "mdySlash",
+    "arValue": "MM/DD/YYYY",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "dateFormats.ymdSlash",
+    "enValue": "ymdSlash",
+    "arValue": "YYYY/MM/DD",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "dateFormats.dmyDash",
+    "enValue": "dmyDash",
+    "arValue": "DD-MM-YYYY",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "dateFormats.mdyDash",
+    "enValue": "mdyDash",
+    "arValue": "MM-DD-YYYY",
+    "reason": "غير مترجم"
+  },
+  {
+    "key": "dateFormats.ymdDash",
+    "enValue": "ymdDash",
+    "arValue": "YYYY-MM-DD",
+    "reason": "غير مترجم"
+  }
+]

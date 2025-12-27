@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "808599419586",
+    "project_id": "log-and-ledger",
+    "storage_bucket": "log-and-ledger.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808599419586:android:2f3f1754703d652987595b",
+        "android_client_info": {
+          "package_name": "com.logandledger.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808599419586-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8kehcrhK8JLBbArdJDpGiKMUAweiy0Fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808599419586-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

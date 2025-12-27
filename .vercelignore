@@ -1,0 +1,35 @@
+# Server files (not needed for frontend deployment)
+server/
+api/
+
+# Build artifacts
+dist/index.js
+dist/*.map
+
+# Development files
+node_modules/
+.git/
+.env
+.env.local
+
+# Documentation
+*.md
+!README.md
+
+# Test files
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+
+# iOS/Android builds
+ios/
+android/
+resources/
+
+# Scripts
+scripts/
+
+# Translation files
+*.cjs
+translation-*.txt
+*.json.backup

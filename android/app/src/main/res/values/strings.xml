@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Log &amp; Ledger Pro</string>
+    <string name="title_activity_main">Log &amp; Ledger Pro</string>
+    <string name="package_name">com.logandledger.app</string>
+    <string name="custom_url_scheme">com.logandledger.app</string>
+</resources>

@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: log-and-ledger-api
+    runtime: node
+    region: singapore
+    plan: standard  # Upgraded for production scale
+    buildCommand: npm ci && npm run build
+    startCommand: node dist/index.js
+    numInstances: 2  # Horizontal scaling for high availability
+    autoDeploy: true
+    healthCheckPath: /api/health
+    # Auto-scaling configuration (available on Team/Enterprise plans)
+    scaling:
+      minInstances: 2
+      maxInstances: 10
+      targetMemoryPercent: 75
+      targetCPUPercent: 70
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: FIREBASE_PROJECT_ID
+        value: log-and-ledger
+      - key: DATABASE_URL
+        sync: false
+      - key: DB_POOL_SIZE
+        value: "50"
+      - key: NODE_OPTIONS
+        value: "--max-old-space-size=2048"

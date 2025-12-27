@@ -1,0 +1,59 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    # Add PostgreSQL service for testing migrations
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: test_db
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/test_db
+      NODE_ENV: test
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type check
+        run: npm run check
+
+      - name: Run migrations (verify they work)
+        run: npm run db:push
+        continue-on-error: false
+
+      - name: Build server
+        run: npm run build:backend
+
+      - name: Build frontend
+        run: npm run build:frontend
+
+      - name: Run tests
+        run: npm test

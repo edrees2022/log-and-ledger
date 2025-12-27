@@ -1,0 +1,98 @@
+name: Daily Database Backup
+
+on:
+  schedule:
+    # Run daily at 02:00 UTC (adjust for your timezone)
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          
+      - name: Install dependencies
+        run: npm install @neondatabase/serverless dotenv
+        
+      - name: Create backup directory
+        run: mkdir -p backups
+        
+      - name: Generate backup
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          node << 'EOF'
+          import { Pool } from '@neondatabase/serverless';
+          import { writeFileSync } from 'fs';
+          
+          const pool = new Pool({ connectionString: process.env.DATABASE_URL });
+          
+          async function backup() {
+            try {
+              console.log('🔄 Starting database backup...');
+              
+              // Get all table names
+              const tablesResult = await pool.query(`
+                SELECT tablename 
+                FROM pg_tables 
+                WHERE schemaname = 'public' 
+                ORDER BY tablename
+              `);
+              
+              const tables = tablesResult.rows.map(r => r.tablename);
+              console.log(`📋 Found ${tables.length} tables to backup`);
+              
+              let backup = {
+                timestamp: new Date().toISOString(),
+                version: '1.0',
+                tables: {}
+              };
+              
+              // Backup each table
+              for (const table of tables) {
+                console.log(`  - Backing up ${table}...`);
+                const result = await pool.query(`SELECT * FROM ${table}`);
+                backup.tables[table] = {
+                  rowCount: result.rows.length,
+                  data: result.rows
+                };
+              }
+              
+              // Write backup file
+              const filename = `backups/backup-${new Date().toISOString().split('T')[0]}.json`;
+              writeFileSync(filename, JSON.stringify(backup, null, 2));
+              
+              console.log(`✅ Backup completed: ${filename}`);
+              console.log(`📊 Total rows: ${Object.values(backup.tables).reduce((sum, t) => sum + t.rowCount, 0)}`);
+              
+              await pool.end();
+              process.exit(0);
+            } catch (error) {
+              console.error('❌ Backup failed:', error);
+              process.exit(1);
+            }
+          }
+          
+          backup();
+          EOF
+          
+      - name: Commit backup
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add backups/
+          git commit -m "chore: automated daily database backup $(date +%Y-%m-%d)" || echo "No changes to commit"
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

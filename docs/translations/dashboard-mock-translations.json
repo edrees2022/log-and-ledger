@@ -1,0 +1,167 @@
+{
+  "fr": {
+    "officeRent": "Loyer de bureau",
+    "salaries": "Salaires",
+    "utilities": "Services publics",
+    "marketing": "Marketing",
+    "other": "Autre",
+    "invoice1": "Facture #INV-2024-001",
+    "invoice2": "Facture #INV-2024-002",
+    "officeSupplies": "Fournitures de bureau",
+    "internetService": "Service Internet"
+  },
+  "es": {
+    "officeRent": "Alquiler de oficina",
+    "salaries": "Salarios",
+    "utilities": "Servicios públicos",
+    "marketing": "Marketing",
+    "other": "Otro",
+    "invoice1": "Factura #INV-2024-001",
+    "invoice2": "Factura #INV-2024-002",
+    "officeSupplies": "Suministros de oficina",
+    "internetService": "Servicio de Internet"
+  },
+  "tr": {
+    "officeRent": "Ofis Kirası",
+    "salaries": "Maaşlar",
+    "utilities": "Kamu Hizmetleri",
+    "marketing": "Pazarlama",
+    "other": "Diğer",
+    "invoice1": "Fatura #INV-2024-001",
+    "invoice2": "Fatura #INV-2024-002",
+    "officeSupplies": "Ofis Malzemeleri",
+    "internetService": "İnternet Hizmeti"
+  },
+  "de": {
+    "officeRent": "Büromiete",
+    "salaries": "Gehälter",
+    "utilities": "Nebenkosten",
+    "marketing": "Marketing",
+    "other": "Sonstiges",
+    "invoice1": "Rechnung #INV-2024-001",
+    "invoice2": "Rechnung #INV-2024-002",
+    "officeSupplies": "Bürobedarf",
+    "internetService": "Internetdienst"
+  },
+  "ru": {
+    "officeRent": "Аренда офиса",
+    "salaries": "Зарплаты",
+    "utilities": "Коммунальные услуги",
+    "marketing": "Маркетинг",
+    "other": "Прочее",
+    "invoice1": "Счет №INV-2024-001",
+    "invoice2": "Счет №INV-2024-002",
+    "officeSupplies": "Офисные принадлежности",
+    "internetService": "Интернет-сервис"
+  },
+  "zh": {
+    "officeRent": "办公室租金",
+    "salaries": "工资",
+    "utilities": "公用事业",
+    "marketing": "营销",
+    "other": "其他",
+    "invoice1": "发票 #INV-2024-001",
+    "invoice2": "发票 #INV-2024-002",
+    "officeSupplies": "办公用品",
+    "internetService": "互联网服务"
+  },
+  "ja": {
+    "officeRent": "オフィス賃料",
+    "salaries": "給与",
+    "utilities": "公共料金",
+    "marketing": "マーケティング",
+    "other": "その他",
+    "invoice1": "請求書 #INV-2024-001",
+    "invoice2": "請求書 #INV-2024-002",
+    "officeSupplies": "オフィス用品",
+    "internetService": "インターネットサービス"
+  },
+  "ko": {
+    "officeRent": "사무실 임대료",
+    "salaries": "급여",
+    "utilities": "공과금",
+    "marketing": "마케팅",
+    "other": "기타",
+    "invoice1": "송장 #INV-2024-001",
+    "invoice2": "송장 #INV-2024-002",
+    "officeSupplies": "사무용품",
+    "internetService": "인터넷 서비스"
+  },
+  "hi": {
+    "officeRent": "कार्यालय किराया",
+    "salaries": "वेतन",
+    "utilities": "उपयोगिताएँ",
+    "marketing": "विपणन",
+    "other": "अन्य",
+    "invoice1": "चालान #INV-2024-001",
+    "invoice2": "चालान #INV-2024-002",
+    "officeSupplies": "कार्यालय आपूर्ति",
+    "internetService": "इंटरनेट सेवा"
+  },
+  "pt": {
+    "officeRent": "Aluguel de escritório",
+    "salaries": "Salários",
+    "utilities": "Serviços públicos",
+    "marketing": "Marketing",
+    "other": "Outro",
+    "invoice1": "Fatura #INV-2024-001",
+    "invoice2": "Fatura #INV-2024-002",
+    "officeSupplies": "Material de escritório",
+    "internetService": "Serviço de Internet"
+  },
+  "ur": {
+    "officeRent": "دفتر کا کرایہ",
+    "salaries": "تنخواہیں",
+    "utilities": "افادی خدمات",
+    "marketing": "مارکیٹنگ",
+    "other": "دیگر",
+    "invoice1": "رسید #INV-2024-001",
+    "invoice2": "رسید #INV-2024-002",
+    "officeSupplies": "دفتری سامان",
+    "internetService": "انٹرنیٹ سروس"
+  },
+  "tl": {
+    "officeRent": "Upa ng Opisina",
+    "salaries": "Mga Sahod",
+    "utilities": "Mga Utility",
+    "marketing": "Marketing",
+    "other": "Iba pa",
+    "invoice1": "Invoice #INV-2024-001",
+    "invoice2": "Invoice #INV-2024-002",
+    "officeSupplies": "Mga Kagamitan sa Opisina",
+    "internetService": "Serbisyo ng Internet"
+  },
+  "bn": {
+    "officeRent": "অফিস ভাড়া",
+    "salaries": "বেতন",
+    "utilities": "ইউটিলিটি",
+    "marketing": "মার্কেটিং",
+    "other": "অন্যান্য",
+    "invoice1": "চালান #INV-2024-001",
+    "invoice2": "চালান #INV-2024-002",
+    "officeSupplies": "অফিস সরবরাহ",
+    "internetService": "ইন্টারনেট সেবা"
+  },
+  "ms": {
+    "officeRent": "Sewa Pejabat",
+    "salaries": "Gaji",
+    "utilities": "Utiliti",
+    "marketing": "Pemasaran",
+    "other": "Lain-lain",
+    "invoice1": "Invois #INV-2024-001",
+    "invoice2": "Invois #INV-2024-002",
+    "officeSupplies": "Bekalan Pejabat",
+    "internetService": "Perkhidmatan Internet"
+  },
+  "id": {
+    "officeRent": "Sewa Kantor",
+    "salaries": "Gaji",
+    "utilities": "Utilitas",
+    "marketing": "Pemasaran",
+    "other": "Lainnya",
+    "invoice1": "Invoice #INV-2024-001",
+    "invoice2": "Invoice #INV-2024-002",
+    "officeSupplies": "Perlengkapan Kantor",
+    "internetService": "Layanan Internet"
+  }
+}

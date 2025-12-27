@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.logandledger.app",
+    "sha256_cert_fingerprints": [
+      "27:3E:A4:31:BA:88:3F:46:EE:12:B6:EF:04:7A:76:E5:32:34:51:CB:B9:7B:34:02:0D:5D:A3:B2:F8:FF:66:E0"
+    ]
+  }
+}]

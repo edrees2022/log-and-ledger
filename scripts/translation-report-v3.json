@@ -1,0 +1,1360 @@
+{
+  "summary": {
+    "filesModified": 20,
+    "totalChanges": 236,
+    "stats": {
+      "jsxContent": 130,
+      "titleAttr": 0,
+      "labelAttr": 66,
+      "placeholderAttr": 1,
+      "stringLiterals": 16
+    }
+  },
+  "appliedTranslations": [
+    {
+      "english": "Create New Payment",
+      "key": "banking.createNewPayment",
+      "type": "JSX content"
+    },
+    {
+      "english": "Payment Method",
+      "key": "banking.paymentMethod",
+      "type": "JSX content"
+    },
+    {
+      "english": "Payment Date",
+      "key": "banking.paymentDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Description",
+      "key": "common.description",
+      "type": "JSX content"
+    },
+    {
+      "english": "Scheduled",
+      "key": "common.scheduled",
+      "type": "object label"
+    },
+    {
+      "english": "Reference",
+      "key": "common.reference",
+      "type": "JSX content"
+    },
+    {
+      "english": "Reference",
+      "key": "common.reference",
+      "type": "label attribute"
+    },
+    {
+      "english": "Completed",
+      "key": "common.completed",
+      "type": "object label"
+    },
+    {
+      "english": "Actions",
+      "key": "common.actions",
+      "type": "label attribute"
+    },
+    {
+      "english": "Pending",
+      "key": "common.pending",
+      "type": "object label"
+    },
+    {
+      "english": "Method",
+      "key": "common.method",
+      "type": "JSX content"
+    },
+    {
+      "english": "Method",
+      "key": "common.method",
+      "type": "label attribute"
+    },
+    {
+      "english": "Vendor",
+      "key": "purchases.vendor",
+      "type": "JSX content"
+    },
+    {
+      "english": "Vendor",
+      "key": "purchases.vendor",
+      "type": "JSX content"
+    },
+    {
+      "english": "Vendor",
+      "key": "purchases.vendor",
+      "type": "label attribute"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "JSX content"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "label attribute"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "label attribute"
+    },
+    {
+      "english": "Failed",
+      "key": "common.failed",
+      "type": "object label"
+    },
+    {
+      "english": "Date",
+      "key": "common.date",
+      "type": "JSX content"
+    },
+    {
+      "english": "Date",
+      "key": "common.date",
+      "type": "label attribute"
+    },
+    {
+      "english": "Create New Receipt",
+      "key": "banking.createNewReceipt",
+      "type": "JSX content"
+    },
+    {
+      "english": "Payment Method",
+      "key": "banking.paymentMethod",
+      "type": "JSX content"
+    },
+    {
+      "english": "Receipt Date",
+      "key": "banking.receiptDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Description",
+      "key": "common.description",
+      "type": "JSX content"
+    },
+    {
+      "english": "Reference",
+      "key": "common.reference",
+      "type": "JSX content"
+    },
+    {
+      "english": "Reference",
+      "key": "common.reference",
+      "type": "label attribute"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "JSX content"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "JSX content"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "label attribute"
+    },
+    {
+      "english": "Actions",
+      "key": "common.actions",
+      "type": "label attribute"
+    },
+    {
+      "english": "Pending",
+      "key": "common.pending",
+      "type": "object label"
+    },
+    {
+      "english": "Method",
+      "key": "common.method",
+      "type": "JSX content"
+    },
+    {
+      "english": "Method",
+      "key": "common.method",
+      "type": "label attribute"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "JSX content"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "label attribute"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "label attribute"
+    },
+    {
+      "english": "Date",
+      "key": "common.date",
+      "type": "JSX content"
+    },
+    {
+      "english": "Date",
+      "key": "common.date",
+      "type": "label attribute"
+    },
+    {
+      "english": "Cash",
+      "key": "banking.cash",
+      "type": "object label"
+    },
+    {
+      "english": "Add New Inventory Item",
+      "key": "reports.addNewInventoryItem",
+      "type": "JSX content"
+    },
+    {
+      "english": "Product Name",
+      "key": "reports.productName",
+      "type": "JSX content"
+    },
+    {
+      "english": "Product Name",
+      "key": "reports.productName",
+      "type": "JSX content"
+    },
+    {
+      "english": "Unit Price",
+      "key": "common.unitPrice",
+      "type": "JSX content"
+    },
+    {
+      "english": "Reference",
+      "key": "common.reference",
+      "type": "JSX content"
+    },
+    {
+      "english": "Reference",
+      "key": "common.reference",
+      "type": "label attribute"
+    },
+    {
+      "english": "Category",
+      "key": "common.category",
+      "type": "JSX content"
+    },
+    {
+      "english": "Category",
+      "key": "common.category",
+      "type": "JSX content"
+    },
+    {
+      "english": "Category",
+      "key": "common.category",
+      "type": "JSX content"
+    },
+    {
+      "english": "Category",
+      "key": "common.category",
+      "type": "label attribute"
+    },
+    {
+      "english": "Quantity",
+      "key": "common.quantity",
+      "type": "label attribute"
+    },
+    {
+      "english": "Actions",
+      "key": "common.actions",
+      "type": "label attribute"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "JSX content"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "label attribute"
+    },
+    {
+      "english": "Date",
+      "key": "common.date",
+      "type": "JSX content"
+    },
+    {
+      "english": "Date",
+      "key": "common.date",
+      "type": "label attribute"
+    },
+    {
+      "english": "Type",
+      "key": "common.type",
+      "type": "JSX content"
+    },
+    {
+      "english": "Type",
+      "key": "common.type",
+      "type": "label attribute"
+    },
+    {
+      "english": "SKU",
+      "key": "common.sku",
+      "type": "JSX content"
+    },
+    {
+      "english": "SKU",
+      "key": "common.sku",
+      "type": "JSX content"
+    },
+    {
+      "english": "SKU",
+      "key": "common.sku",
+      "type": "JSX content"
+    },
+    {
+      "english": "SKU",
+      "key": "common.sku",
+      "type": "label attribute"
+    },
+    {
+      "english": "Issue Date",
+      "key": "sales.issueDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "JSX content"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "label attribute"
+    },
+    {
+      "english": "Due Date",
+      "key": "sales.dueDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Actions",
+      "key": "common.actions",
+      "type": "label attribute"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "JSX content"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "label attribute"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "label attribute"
+    },
+    {
+      "english": "Create New Sales Order",
+      "key": "sales.createNewOrder",
+      "type": "JSX content"
+    },
+    {
+      "english": "Delivery Date",
+      "key": "sales.deliveryDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Delivery Date",
+      "key": "sales.deliveryDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Description",
+      "key": "common.description",
+      "type": "JSX content"
+    },
+    {
+      "english": "Order Date",
+      "key": "common.orderDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Order Date",
+      "key": "common.orderDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "JSX content"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "JSX content"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "label attribute"
+    },
+    {
+      "english": "Actions",
+      "key": "common.actions",
+      "type": "label attribute"
+    },
+    {
+      "english": "Pending",
+      "key": "common.pending",
+      "type": "object label"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "JSX content"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "label attribute"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "label attribute"
+    },
+    {
+      "english": "Create New Quotation",
+      "key": "sales.createNewQuotation",
+      "type": "JSX content"
+    },
+    {
+      "english": "Description",
+      "key": "common.description",
+      "type": "JSX content"
+    },
+    {
+      "english": "Issue Date",
+      "key": "sales.issueDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "JSX content"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "JSX content"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "label attribute"
+    },
+    {
+      "english": "Actions",
+      "key": "common.actions",
+      "type": "label attribute"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "JSX content"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "label attribute"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "label attribute"
+    },
+    {
+      "english": "Create New Credit Note",
+      "key": "sales.createNewCreditNote",
+      "type": "JSX content"
+    },
+    {
+      "english": "Related Invoice",
+      "key": "sales.relatedInvoice",
+      "type": "JSX content"
+    },
+    {
+      "english": "Related Invoice",
+      "key": "sales.relatedInvoice",
+      "type": "JSX content"
+    },
+    {
+      "english": "Issue Date",
+      "key": "sales.issueDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Issue Date",
+      "key": "sales.issueDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "JSX content"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "JSX content"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "label attribute"
+    },
+    {
+      "english": "Actions",
+      "key": "common.actions",
+      "type": "label attribute"
+    },
+    {
+      "english": "Pending",
+      "key": "common.pending",
+      "type": "object label"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "JSX content"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "label attribute"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "label attribute"
+    },
+    {
+      "english": "Create Recurring Invoice Template",
+      "key": "sales.createRecurringTemplate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Template Name",
+      "key": "sales.templateName",
+      "type": "JSX content"
+    },
+    {
+      "english": "Description",
+      "key": "common.description",
+      "type": "JSX content"
+    },
+    {
+      "english": "Frequency",
+      "key": "sales.frequency",
+      "type": "JSX content"
+    },
+    {
+      "english": "Frequency",
+      "key": "sales.frequency",
+      "type": "JSX content"
+    },
+    {
+      "english": "Frequency",
+      "key": "sales.frequency",
+      "type": "label attribute"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "JSX content"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "JSX content"
+    },
+    {
+      "english": "Customer",
+      "key": "common.customer",
+      "type": "label attribute"
+    },
+    {
+      "english": "Actions",
+      "key": "common.actions",
+      "type": "label attribute"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "JSX content"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "label attribute"
+    },
+    {
+      "english": "Active",
+      "key": "common.active",
+      "type": "object label"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "label attribute"
+    },
+    {
+      "english": "Supplier Reference",
+      "key": "purchases.supplierReference",
+      "type": "JSX content"
+    },
+    {
+      "english": "Create New Bill",
+      "key": "purchases.createNewBill",
+      "type": "JSX content"
+    },
+    {
+      "english": "Bill Number",
+      "key": "purchases.billNumber",
+      "type": "JSX content"
+    },
+    {
+      "english": "Description",
+      "key": "common.description",
+      "type": "JSX content"
+    },
+    {
+      "english": "Bill Date",
+      "key": "purchases.billDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Bill Date",
+      "key": "purchases.billDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Due Date",
+      "key": "sales.dueDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Due Date",
+      "key": "sales.dueDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Supplier",
+      "key": "common.supplier",
+      "type": "JSX content"
+    },
+    {
+      "english": "Supplier",
+      "key": "common.supplier",
+      "type": "placeholder attribute"
+    },
+    {
+      "english": "Category",
+      "key": "common.category",
+      "type": "JSX content"
+    },
+    {
+      "english": "Category",
+      "key": "common.category",
+      "type": "label attribute"
+    },
+    {
+      "english": "Actions",
+      "key": "common.actions",
+      "type": "label attribute"
+    },
+    {
+      "english": "Pending",
+      "key": "common.pending",
+      "type": "object label"
+    },
+    {
+      "english": "Balance",
+      "key": "common.balance",
+      "type": "JSX content"
+    },
+    {
+      "english": "Balance",
+      "key": "common.balance",
+      "type": "label attribute"
+    },
+    {
+      "english": "Vendor",
+      "key": "purchases.vendor",
+      "type": "JSX content"
+    },
+    {
+      "english": "Vendor",
+      "key": "purchases.vendor",
+      "type": "label attribute"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "JSX content"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "label attribute"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Total",
+      "key": "common.total",
+      "type": "JSX content"
+    },
+    {
+      "english": "Total",
+      "key": "common.total",
+      "type": "label attribute"
+    },
+    {
+      "english": "Create New Purchase Order",
+      "key": "purchases.createNewPurchaseOrder",
+      "type": "JSX content"
+    },
+    {
+      "english": "Expected Delivery",
+      "key": "purchases.expectedDelivery",
+      "type": "JSX content"
+    },
+    {
+      "english": "Description",
+      "key": "common.description",
+      "type": "JSX content"
+    },
+    {
+      "english": "Order Date",
+      "key": "common.orderDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Order Date",
+      "key": "common.orderDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Supplier",
+      "key": "common.supplier",
+      "type": "JSX content"
+    },
+    {
+      "english": "Actions",
+      "key": "common.actions",
+      "type": "label attribute"
+    },
+    {
+      "english": "Pending",
+      "key": "common.pending",
+      "type": "object label"
+    },
+    {
+      "english": "Vendor",
+      "key": "purchases.vendor",
+      "type": "JSX content"
+    },
+    {
+      "english": "Vendor",
+      "key": "purchases.vendor",
+      "type": "label attribute"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "JSX content"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "label attribute"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "label attribute"
+    },
+    {
+      "english": "Create New Expense",
+      "key": "purchases.createNewExpense",
+      "type": "JSX content"
+    },
+    {
+      "english": "Payment Method",
+      "key": "banking.paymentMethod",
+      "type": "JSX content"
+    },
+    {
+      "english": "Description",
+      "key": "common.description",
+      "type": "JSX content"
+    },
+    {
+      "english": "Description",
+      "key": "common.description",
+      "type": "JSX content"
+    },
+    {
+      "english": "Description",
+      "key": "common.description",
+      "type": "label attribute"
+    },
+    {
+      "english": "Category",
+      "key": "common.category",
+      "type": "JSX content"
+    },
+    {
+      "english": "Category",
+      "key": "common.category",
+      "type": "JSX content"
+    },
+    {
+      "english": "Category",
+      "key": "common.category",
+      "type": "label attribute"
+    },
+    {
+      "english": "Actions",
+      "key": "common.actions",
+      "type": "label attribute"
+    },
+    {
+      "english": "Pending",
+      "key": "common.pending",
+      "type": "object label"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "JSX content"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "label attribute"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "label attribute"
+    },
+    {
+      "english": "Date",
+      "key": "common.date",
+      "type": "JSX content"
+    },
+    {
+      "english": "Date",
+      "key": "common.date",
+      "type": "JSX content"
+    },
+    {
+      "english": "Date",
+      "key": "common.date",
+      "type": "label attribute"
+    },
+    {
+      "english": "Create New Debit Note",
+      "key": "purchases.createNewDebitNote",
+      "type": "JSX content"
+    },
+    {
+      "english": "Related Bill",
+      "key": "purchases.relatedBill",
+      "type": "JSX content"
+    },
+    {
+      "english": "Related Bill",
+      "key": "purchases.relatedBill",
+      "type": "JSX content"
+    },
+    {
+      "english": "Issue Date",
+      "key": "sales.issueDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Issue Date",
+      "key": "sales.issueDate",
+      "type": "JSX content"
+    },
+    {
+      "english": "Actions",
+      "key": "common.actions",
+      "type": "label attribute"
+    },
+    {
+      "english": "Pending",
+      "key": "common.pending",
+      "type": "object label"
+    },
+    {
+      "english": "Vendor",
+      "key": "purchases.vendor",
+      "type": "JSX content"
+    },
+    {
+      "english": "Vendor",
+      "key": "purchases.vendor",
+      "type": "JSX content"
+    },
+    {
+      "english": "Vendor",
+      "key": "purchases.vendor",
+      "type": "label attribute"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "JSX content"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "label attribute"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "JSX content"
+    },
+    {
+      "english": "Amount",
+      "key": "common.amount",
+      "type": "label attribute"
+    },
+    {
+      "english": "Language Configuration",
+      "key": "settings.languageConfig",
+      "type": "JSX content"
+    },
+    {
+      "english": "Available Languages",
+      "key": "settings.availableLanguages",
+      "type": "JSX content"
+    },
+    {
+      "english": "Actions",
+      "key": "common.actions",
+      "type": "label attribute"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "JSX content"
+    },
+    {
+      "english": "Status",
+      "key": "common.status",
+      "type": "label attribute"
+    },
+    {
+      "english": "Total",
+      "key": "common.total",
+      "type": "label attribute"
+    },
+    {
+      "english": "Inactive",
+      "key": "common.inactive",
+      "type": "object label"
+    },
+    {
+      "english": "Pending",
+      "key": "common.pending",
+      "type": "object label"
+    },
+    {
+      "english": "Active",
+      "key": "common.active",
+      "type": "object label"
+    }
+  ],
+  "missingKeys": {
+    "validation": [],
+    "banking": [
+      {
+        "key": "createNewPayment",
+        "fullKey": "banking.createNewPayment",
+        "english": "Create New Payment"
+      },
+      {
+        "key": "paymentMethod",
+        "fullKey": "banking.paymentMethod",
+        "english": "Payment Method"
+      },
+      {
+        "key": "paymentDate",
+        "fullKey": "banking.paymentDate",
+        "english": "Payment Date"
+      },
+      {
+        "key": "createNewReceipt",
+        "fullKey": "banking.createNewReceipt",
+        "english": "Create New Receipt"
+      },
+      {
+        "key": "receiptDate",
+        "fullKey": "banking.receiptDate",
+        "english": "Receipt Date"
+      },
+      {
+        "key": "cash",
+        "fullKey": "banking.cash",
+        "english": "Cash"
+      }
+    ],
+    "sales": [
+      {
+        "key": "issueDate",
+        "fullKey": "sales.issueDate",
+        "english": "Issue Date"
+      },
+      {
+        "key": "dueDate",
+        "fullKey": "sales.dueDate",
+        "english": "Due Date"
+      },
+      {
+        "key": "createNewOrder",
+        "fullKey": "sales.createNewOrder",
+        "english": "Create New Sales Order"
+      },
+      {
+        "key": "deliveryDate",
+        "fullKey": "sales.deliveryDate",
+        "english": "Delivery Date"
+      },
+      {
+        "key": "createNewQuotation",
+        "fullKey": "sales.createNewQuotation",
+        "english": "Create New Quotation"
+      },
+      {
+        "key": "createNewCreditNote",
+        "fullKey": "sales.createNewCreditNote",
+        "english": "Create New Credit Note"
+      },
+      {
+        "key": "relatedInvoice",
+        "fullKey": "sales.relatedInvoice",
+        "english": "Related Invoice"
+      },
+      {
+        "key": "createRecurringTemplate",
+        "fullKey": "sales.createRecurringTemplate",
+        "english": "Create Recurring Invoice Template"
+      },
+      {
+        "key": "templateName",
+        "fullKey": "sales.templateName",
+        "english": "Template Name"
+      },
+      {
+        "key": "frequency",
+        "fullKey": "sales.frequency",
+        "english": "Frequency"
+      }
+    ],
+    "purchases": [
+      {
+        "key": "vendor",
+        "fullKey": "purchases.vendor",
+        "english": "Vendor"
+      },
+      {
+        "key": "supplierReference",
+        "fullKey": "purchases.supplierReference",
+        "english": "Supplier Reference"
+      },
+      {
+        "key": "createNewBill",
+        "fullKey": "purchases.createNewBill",
+        "english": "Create New Bill"
+      },
+      {
+        "key": "billNumber",
+        "fullKey": "purchases.billNumber",
+        "english": "Bill Number"
+      },
+      {
+        "key": "billDate",
+        "fullKey": "purchases.billDate",
+        "english": "Bill Date"
+      },
+      {
+        "key": "createNewPurchaseOrder",
+        "fullKey": "purchases.createNewPurchaseOrder",
+        "english": "Create New Purchase Order"
+      },
+      {
+        "key": "expectedDelivery",
+        "fullKey": "purchases.expectedDelivery",
+        "english": "Expected Delivery"
+      },
+      {
+        "key": "createNewExpense",
+        "fullKey": "purchases.createNewExpense",
+        "english": "Create New Expense"
+      },
+      {
+        "key": "createNewDebitNote",
+        "fullKey": "purchases.createNewDebitNote",
+        "english": "Create New Debit Note"
+      },
+      {
+        "key": "relatedBill",
+        "fullKey": "purchases.relatedBill",
+        "english": "Related Bill"
+      }
+    ],
+    "reports": [
+      {
+        "key": "addNewInventoryItem",
+        "fullKey": "reports.addNewInventoryItem",
+        "english": "Add New Inventory Item"
+      },
+      {
+        "key": "productName",
+        "fullKey": "reports.productName",
+        "english": "Product Name"
+      }
+    ],
+    "settings": [
+      {
+        "key": "languageConfig",
+        "fullKey": "settings.languageConfig",
+        "english": "Language Configuration"
+      },
+      {
+        "key": "availableLanguages",
+        "fullKey": "settings.availableLanguages",
+        "english": "Available Languages"
+      }
+    ],
+    "common": [
+      {
+        "key": "description",
+        "fullKey": "common.description",
+        "english": "Description"
+      },
+      {
+        "key": "scheduled",
+        "fullKey": "common.scheduled",
+        "english": "Scheduled"
+      },
+      {
+        "key": "reference",
+        "fullKey": "common.reference",
+        "english": "Reference"
+      },
+      {
+        "key": "completed",
+        "fullKey": "common.completed",
+        "english": "Completed"
+      },
+      {
+        "key": "actions",
+        "fullKey": "common.actions",
+        "english": "Actions"
+      },
+      {
+        "key": "pending",
+        "fullKey": "common.pending",
+        "english": "Pending"
+      },
+      {
+        "key": "method",
+        "fullKey": "common.method",
+        "english": "Method"
+      },
+      {
+        "key": "status",
+        "fullKey": "common.status",
+        "english": "Status"
+      },
+      {
+        "key": "amount",
+        "fullKey": "common.amount",
+        "english": "Amount"
+      },
+      {
+        "key": "failed",
+        "fullKey": "common.failed",
+        "english": "Failed"
+      },
+      {
+        "key": "date",
+        "fullKey": "common.date",
+        "english": "Date"
+      },
+      {
+        "key": "customer",
+        "fullKey": "common.customer",
+        "english": "Customer"
+      },
+      {
+        "key": "unitPrice",
+        "fullKey": "common.unitPrice",
+        "english": "Unit Price"
+      },
+      {
+        "key": "category",
+        "fullKey": "common.category",
+        "english": "Category"
+      },
+      {
+        "key": "quantity",
+        "fullKey": "common.quantity",
+        "english": "Quantity"
+      },
+      {
+        "key": "type",
+        "fullKey": "common.type",
+        "english": "Type"
+      },
+      {
+        "key": "sku",
+        "fullKey": "common.sku",
+        "english": "SKU"
+      },
+      {
+        "key": "orderDate",
+        "fullKey": "common.orderDate",
+        "english": "Order Date"
+      },
+      {
+        "key": "active",
+        "fullKey": "common.active",
+        "english": "Active"
+      },
+      {
+        "key": "supplier",
+        "fullKey": "common.supplier",
+        "english": "Supplier"
+      },
+      {
+        "key": "balance",
+        "fullKey": "common.balance",
+        "english": "Balance"
+      },
+      {
+        "key": "total",
+        "fullKey": "common.total",
+        "english": "Total"
+      },
+      {
+        "key": "inactive",
+        "fullKey": "common.inactive",
+        "english": "Inactive"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Build
+dist/
+build/
+
+# Capacitor
+android/app/build/
+android/build/
+android/.gradle/
+ios/App/build/
+ios/Pods/
+*.apk
+
+# Logs
+*.log
+*-log.txt
+
+# Editor
+.vscode/
+.idea/
+
+# Temp files
+files/
+attached_assets/
+*.backup*
+*.bak
+*.tmp
+*.cjs
+*.txt
+!package.json
+!tsconfig.json

@@ -1,0 +1,74 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Critical: Run migrations BEFORE deploying code
+      # TODO: Enable after adding PRODUCTION_DATABASE_URL secret
+      # - name: Run database migrations
+      #   run: npm run db:migrate
+      #   env:
+      #     DATABASE_URL: ${{ secrets.PRODUCTION_DATABASE_URL }}
+      #   continue-on-error: false # Stop deployment if migrations fail
+
+      - name: Check if migration secrets configured
+        run: |
+          if [ -z "${{ secrets.PRODUCTION_DATABASE_URL }}" ]; then
+            echo "⚠️ PRODUCTION_DATABASE_URL secret not configured"
+            echo "⚠️ Skipping migrations - please configure secrets"
+            echo "⚠️ See GITHUB_SECRETS_SETUP.md for instructions"
+          else
+            echo "✅ Migration secrets configured"
+            npm run db:migrate
+          fi
+        env:
+          DATABASE_URL: ${{ secrets.PRODUCTION_DATABASE_URL }}
+        continue-on-error: true # Don't fail deploy if secrets not configured yet
+
+      # Backend deployment (example for Render)
+      - name: Trigger Render Deploy
+        if: success()
+        run: |
+          if [ -z "${{ secrets.RENDER_DEPLOY_HOOK_URL }}" ]; then
+            echo "⚠️ RENDER_DEPLOY_HOOK_URL secret not configured"
+            echo "⚠️ Skipping Render deployment"
+          else
+            echo "🚀 Triggering Render deployment"
+            curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
+          fi
+        continue-on-error: true
+
+      # Frontend deployment (Vercel auto-deploys on push to main)
+      - name: Notify deployment
+        if: success()
+        run: |
+          echo "🚀 Deployment triggered"
+          echo "Backend: Render webhook called"
+          echo "Frontend: Vercel auto-deploy in progress"
+
+      # Rollback on failure
+      - name: Rollback on failure
+        if: failure()
+        run: |
+          echo "❌ Deployment failed - migrations or build error"
+          echo "Manual rollback may be required"
+          echo "Check migration logs above"
